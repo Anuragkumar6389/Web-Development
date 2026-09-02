@@ -8,9 +8,12 @@
     <style>
 
         :root{
-            --color:rgb(123, 255, 0);
-            --seccolor:rgb(12, 228, 235);
+            --color:rgb(125, 240, 17);
+            --seccolor:red;
+            --defpad :23px;
+            --defop :0.4;
         }
+
         * {
             margin: 0;
             padding: 0;
@@ -27,9 +30,11 @@
         ul li {
             list-style: none;
             padding: 34px;
+            border: 2px solid var(--seccolor);
+            opacity: var (--defop;)
         }
 
-        ul li{
+        ul li :first-child{
             --color:rgb(12, 228, 235);
              background-color: var(--color);
         }
