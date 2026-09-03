@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css float and clear</title>
+    <style>
+
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        img{
+            float: left;
+        }
+
+        .card{
+            border: 2px solid red;
+        }
+
+        .card:nth-child(2){
+            background-color: aqua;
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVfQeMipZHv5-FW-XkKHKE81eHG-t8cA45MZq5BqpddQ&s=10" alt="dhoni image" width="230">
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut incidunt corporis animi, iure, earum quam, assumenda fugit magnam nihil accusantium veniam dignissimos. Possimus, quo veritatis?</p>
+        </div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, earum quam perferendis repudiandae nostrum deleniti, quibusdam mollitia ab sed esse quo, maxime saepe veniam expedita a ipsum consectetur vel necessitatibus quaerat. Fuga ducimus beatae sit explicabo fugiat dignissimos excepturi repellat, totam saepe velit blanditiis asperiores qui tempora magni quas vero ullam itaque enim corporis animi quae maiores delectus non ipsam. Repudiandae nihil, quam libero nesciunt reprehenderit nostrum adipisci culpa soluta unde vitae nemo veritatis eligendi excepturi tempora, magnam quisquam corporis? Consequuntur suscipit dolor ipsam pariatur neque non provident itaque maiores numquam iste sunt sit porro minima sed, laborum quaerat assumenda asperiores eligendi vero error dolore! Molestias dolores quae ad odit dicta, asperiores ducimus dolor amet maxime aut adipisci minima necessitatibus illum ullam quisquam? Suscipit consequatur commodi nihil fugiat corrupti fugit voluptatum expedita? Assumenda earum, pariatur eveniet quaerat at voluptatem reprehenderit tempore voluptates esse deserunt molestias minima in suscipit quas ab, voluptatum, officia illum nam veritatis eos delectus beatae error iure. Adipisci laudantium non fugiat, voluptatibus doloribus placeat corrupti eius modi voluptate tempore ab! Quod molestiae delectus natus quaerat labore quisquam dignissimos officiis quasi corrupti veniam vel ipsa, possimus maiores repellat nostrum doloribus atque illum eligendi nemo reprehenderit nesciunt enim laudantium.</div>
+        <div class="card">card3</div>
+    </div>
+</body>
+</html>
