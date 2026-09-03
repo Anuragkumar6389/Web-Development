@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on css selector</title>
+    <style>
+        /*  .box:first-child{
+        background-color: aqua ;
+       }
+
+       .box::first-line{
+        color: yellow;
+       } */
+
+        /* .boxes *{
+        color: blue;
+        border: 2px solid black;
+       }
+
+       p, a , .box,[data-color="primary"]{
+        padding-top: 45px;
+       } */
+
+        /* .box:nth-child(even){
+        background-color: blue;
+       } */
+
+        /* .box:nth-child(1){
+        background-color: red;
+       } */
+
+        .boxex::before {
+            content: "Anurag is Good";
+            color: red;
+        }
+
+        ::selection {
+            background-color: black;
+            color: yellow;
+        }
+
+        .box::first-letter {
+            color: peru;
+            font-size: 45px;
+        }
+
+        input::placeholder {
+            color: blue;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxex">
+        <div data-color="primary" class="box"> I Am a first box</div>
+        <div class="box">Hey I Am a box</div>
+        <div class="box">Hey I Am a box</div>
+        <input type="text" placeholder="Type your name here">
+    </div>
+</body>
+
+</html>
